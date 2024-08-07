@@ -1,5 +1,3 @@
---Write a trigger LogTransaction that inserts a record into an AuditLog table whenever a transaction is inserted into the Transactions table
-
 CREATE OR REPLACE TRIGGER LogTransaction
 AFTER INSERT ON Transactions
 FOR EACH ROW
